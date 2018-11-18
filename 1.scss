@@ -1,0 +1,12 @@
+.phaikhung{
+    .al{
+        display: flex;
+        flex-wrap: wrap;
+        .phai{
+            margin: 5px;
+        }
+    }
+}
+.btn.btn-primary.dathang.disabled {
+    pointer-events: none;
+}
