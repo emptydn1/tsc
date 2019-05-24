@@ -46,7 +46,7 @@ for (let i = 0; i < buttonBuy.length; i++) {
     })
 }
 
-//  code em can fix day a
+// warning
 setInterval(function(){
     spgh.xemgh();
     hamclick();
