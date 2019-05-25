@@ -50,7 +50,7 @@ for (let i = 0; i < buttonBuy.length; i++) {
 setInterval(function(){
     spgh.xemgh();
     hamclick();
-}, 0);
+}, 500);
 
 function hamclick(){
     var layclassxoa = document.querySelectorAll('.xoa');
