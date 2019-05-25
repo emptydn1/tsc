@@ -11,7 +11,7 @@ takeSPK.innerHTML = sp.showSanPham();
 var spCart = document.getElementById('spgh'); //lấy ra sản phẩm giỏ hàng ra html
 var giaPhai = document.getElementsByClassName('phai'); //lấy ra tổng giá
 var buttonBuy = document.querySelectorAll('.btn.btn-primary');
-var a = false;
+
 for (let i = 0; i < buttonBuy.length; i++) {
     buttonBuy[i].addEventListener('click', function () {
         var idlayduoc = this.getAttribute('data-idsp');
@@ -44,6 +44,7 @@ setInterval(function () {
     spgh.xemgh();
     hamclick();
 }, 500);
+
 function hamclick() {
     var layclassxoa = document.querySelectorAll('.xoa');
     for (let i = 0; i < layclassxoa.length; i++) {
