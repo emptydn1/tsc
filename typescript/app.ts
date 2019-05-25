@@ -16,7 +16,7 @@ var giaPhai = document.getElementsByClassName('phai');         //lấy ra tổng
 
 var buttonBuy = document.querySelectorAll('.btn.btn-primary');
 
-var a =false;
+
 for (let i = 0; i < buttonBuy.length; i++) {
     buttonBuy[i].addEventListener('click', function(){
         var idlayduoc:number = this.getAttribute('data-idsp');
