@@ -49,7 +49,7 @@ class QuanLyGioHang {
         return sl;
     }
     updateSanPhamgh(motsp, soluong) {
-        for (let i = 0; i < this._manageCart.length - 1; i++) {
+        for (let i = 0; i < this._manageCart.length; i++) {
             if (this._manageCart[i].sanpham.id == motsp.id) {
                 this._manageCart[i].soluong = soluong;
             }
